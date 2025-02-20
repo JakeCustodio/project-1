@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          .column1 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column2 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          table,
+          th,
+          td {
+            border: 0x solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            color: rgb(0, 0, 0);
+            width: 80%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+          }
+        </style>
+        <style>
+          .title {
+            font-size: 385%;
+            color: #eaceac;
+            text-align: center;
+            font-family: times new roman;
+          }
+        </style>
+        <style>
+          .yapping {
+            font-size: 200%;
+            color: #472d1b;
+            text-align: justify;
+            padding-left: 70px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+        </style>
+        <style>
+          .footnote {
+            font-size: 150%;
+            color: #472d1b;
+            font-family: "Garamond";
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        </style>
+        <title class="title">Monument Valley</title>
+      </head>
+
+      <body>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      <h1 class="title">Monument Valley</h1>
+      <hr />
+  
+      <div class="topbar">
+        <a href="#">Monument Valley</a>
+      </div>
+
+      <img style="width:100%; position:center" src="Images/Full Size/Monument Valley.png" alt="">
+
+      <div class="row">
+
+        <div class="row">
+          <div class="column1" style="padding: 5%">
+            <p class="yapping">
+                Monument Valley (Navajo: Tsé Biiʼ Ndzisgaii, meaning "valley of the rocks") 
+                is a region of the Colorado Plateau characterized by a cluster of sandstone 
+                buttes, with the largest reaching 1,000 ft (300 m) above the valley floor. 
+                The most famous butte formations are located in northeastern Arizona along 
+                the Utah–Arizona state line. The valley is considered sacred by the Navajo 
+                Nation, the Native American people within whose reservation it lies.
+            </p>
+            <p class="yapping">
+                Monument Valley has been featured in many forms of media since the 1930s. 
+                Famed director John Ford used the location for a number of his Westerns. 
+                Film critic Keith Phipps wrote that "its five square miles [13 km2] have 
+                defined what decades of moviegoers think of when they imagine the American 
+                West".
+            </p>
+          </div>
+          <div class="column2" style="padding: 1px; padding-top: 100px">
+            <!-- Table of Legacy
+    -->
+            <table
+              style="
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 200%;
+              "
+            >
+              <tr>
+                <th>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Images/Card Images/Stagecoach.png" alt="" style="width:500px;height:500px; border-radius: 30px;">
+                      </div>
+                      <div  style="padding: 40px; padding-top: 45px;"class="flip-card-back">
+                        <h1 style="font-size: 40px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          The Picture of the West</h1>
+                        <p style="font-size:20px; font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          Popularized by John Ford films such as Stagecoach (1939), My Darling Clementine (1946) and 
+                          The Searchers (1956), Monument Valley became the archetypal backdrop for the Wild West. 
+                          The valley saw further use in Sergio Leone's Once Upon a Time in the West (1968), the first 
+                          "spaghetti western" to be filmed in the United States, and a landmark in cinema. It has 
+                          continued to see extensive use as a film backdrop.</p>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+    
+            </table>
+            <!--Footnotes
+    -->
+    
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Learn more about Monument Valley:
+              <l1><a href="https://navajonationparks.org/navajo-tribal-parks/monument-valley/">NPS Website</a></l1>
+            </ul>
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Visit the Park Map:
+              <l1
+                ><a
+                  href="https://www.americansouthwest.net/utah/monument_valley/map.html"
+                  >Park Map</a
+                ></l1
+              >
+            </ul>
+          </div>
+        </div>
+
+        <div class="button" style="position: fixed; left: 4%; bottom: 20px; width: 8%; height: auto;">
+            <a href="Project1.html">
+              <img style="width:100%;" src="Images/Stamp.png" alt="">
+      <!--                The button! -->
+            </a>
+          </div>
+
+      </body>
+    </html>

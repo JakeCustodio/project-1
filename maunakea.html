@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          .column1 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column2 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          table,
+          th,
+          td {
+            border: 0x solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            color: rgb(0, 0, 0);
+            width: 80%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+          }
+        </style>
+        <style>
+          .title {
+            font-size: 385%;
+            color: #eaceac;
+            text-align: center;
+            font-family: times new roman;
+          }
+        </style>
+        <style>
+          .yapping {
+            font-size: 200%;
+            color: #472d1b;
+            text-align: justify;
+            padding-left: 70px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+        </style>
+        <style>
+          .footnote {
+            font-size: 150%;
+            color: #472d1b;
+            font-family: "Garamond";
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        </style>
+        <title class="title">Mauna Kea</title>
+      </head>
+
+      <body>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      <h1 class="title">Mauna Kea</h1>
+      <hr />
+  
+      <div class="topbar">
+        <a href="#">Mauna Kea</a>
+      </div>
+
+      <img style="width:100%; position:center" src="Images/Full Size/Mauna Kea.png" alt="">
+
+      <div class="row">
+
+        <div class="row">
+          <div class="column1" style="padding: 5%">
+            <p class="yapping">
+                Mauna Kea is a dormant shield volcano on the island of Hawaiʻi. Its peak 
+                is 4,207.3 m (13,803 ft) above sea level, making it the highest point 
+                in Hawaii and the island with the second highest high point, behind 
+                New Guinea, the world's largest tropical island with multiple peaks 
+                that are higher. The peak is about 38 m (125 ft) higher than Mauna Loa, 
+                its more massive neighbor. Mauna Kea is unusually topographically 
+                prominent for its height: its prominence from sea level is fifteenth in 
+                the world among mountains, at 4,207.3 m (13,803 ft); its prominence from 
+                under the ocean is 9,330 m (30,610 ft), rivaled only by Mount Everest. 
+                This dry prominence is greater than Everest's height above sea level of 
+                8,848.86 m (29,032 ft), and some authorities have labeled Mauna Kea the 
+                tallest mountain in the world, from its underwater base. Mauna Kea is 
+                ranked 8th by topographic isolation.
+            </p>
+          </div>
+          <div class="column2" style="padding: 1px; padding-top: 100px">
+            <!-- Table of Legacy
+    -->
+            <table
+              style="
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 200%;
+              "
+            >
+              <tr>
+                <th>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Images/Card Images/Stack.png" alt="" style="width:500px;height:500px; border-radius: 30px;">
+                      </div>
+                      <div  style="padding: 40px; padding-top: 75px;"class="flip-card-back">
+                        <h1 style="font-size: 40px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          Sacred Mountain</h1>
+                        <p style="font-size:20px; font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          Ancient Hawaiians held the five volcanoes of the archipelago with deep 
+                          spiritually significance, with Mauna Kea, the highest, being the most 
+                          scared and revered. Its summit is said to be the dwelling place of 
+                          benevolent gods, The name is an abbreviation for  Mauna a Wākea, meaning 
+                          "white mountain," in reference to the snow that often blankets its peak.</p>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+    
+            </table>
+            <!--Footnotes
+    -->
+    
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Learn more about Mauna Kea:
+              <l1><a href="https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/maunakea">NPS Website</a></l1>
+            </ul>
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Visit the Park Map:
+              <l1
+                ><a
+                  href="https://dlnr.hawaii.gov/ecosystems/files/2013/07/Mauna-Kea-Topographical-Map.pdf"
+                  >Park Map</a
+                ></l1
+              >
+            </ul>
+          </div>
+        </div>
+
+        <div class="button" style="position: fixed; left: 4%; bottom: 20px; width: 8%; height: auto;">
+          <a href="Project1.html">
+            <img style="width:100%;" src="Images/Stamp.png" alt="">
+    <!--                The button! -->
+          </a>
+        </div>
+
+      </body>
+    </html>

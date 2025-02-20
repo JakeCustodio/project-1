@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          .column1 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column2 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          table,
+          th,
+          td {
+            border: 0x solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            color: rgb(0, 0, 0);
+            width: 80%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+          }
+        </style>
+        <style>
+          .title {
+            font-size: 385%;
+            color: #eaceac;
+            text-align: center;
+            font-family: times new roman;
+          }
+        </style>
+        <style>
+          .yapping {
+            font-size: 200%;
+            color: #472d1b;
+            text-align: justify;
+            padding-left: 70px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+        </style>
+        <style>
+          .footnote {
+            font-size: 150%;
+            color: #472d1b;
+            font-family: "Garamond";
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        </style>
+        <title class="title">Yellowstone</title>
+      </head>
+
+      <body>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      <h1 class="title">Yellowstone</h1>
+      <hr />
+  
+      <div class="topbar">
+        <a href="#">Yellowstone</a>
+      </div>
+
+      <img style="width:100%; position:center" src="Images/Full Size/Yellowstone.png" alt="">
+
+      <div class="row">
+
+        <div class="row">
+          <div class="column1" style="padding: 5%">
+            <p class="yapping">
+                Yellowstone National Park is a national park of the United States located 
+                in the northwest corner of Wyoming and extending into Montana and Idaho. 
+                It was established by the 42nd U.S. Congress through the Yellowstone 
+                National Park Protection Act and signed into law by President Ulysses S. 
+                Grant on March 1, 1872. Yellowstone was the first national park in the 
+                U.S. and is also widely held to be the first national park in the world. 
+                The park is known for its wildlife and its many geothermal features, 
+                especially the Old Faithful geyser, one of its most popular. While it 
+                represents many types of biomes, the subalpine forest is the most 
+                abundant. It is part of the South Central Rockies forests ecoregion.
+            </p>
+          </div>
+          <div class="column2" style="padding: 1px; padding-top: 100px">
+            <!-- Table of Legacy
+    -->
+            <table
+              style="
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 200%;
+              "
+            >
+              <tr>
+                <th>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Images/Card Images/Faithful.png" alt="" style="width:500px;height:500px; border-radius: 30px;">
+                      </div>
+                      <div  style="padding: 40px; padding-top: 80px;"class="flip-card-back">
+                        <h1 style="font-size: 40px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          Old Faithful</h1>
+                        <p style="font-size:20px; font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                            "It spouted at regular intervals nine times during our stay, the columns of 
+                            boiling water being thrown from ninety to one hundred and twenty-five feet 
+                            at each discharge, which lasted from fifteen to twenty minutes. We gave it 
+                            the name of 'Old Faithful.'"
+                        </p>
+                        <p style="font-size:20px; font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                            —Nathaniel P. Langford, 1871
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+    
+            </table>
+            <!--Footnotes
+    -->
+    
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Learn more about Yellowstone:
+              <l1><a href="https://www.nps.gov/yell/index.htm">NPS Website</a></l1>
+            </ul>
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Visit the Park Map:
+              <l1
+                ><a
+                  href="https://www.nps.gov/yell/planyourvisit/maps.htm"
+                  >Park Map</a
+                ></l1
+              >
+            </ul>
+          </div>
+        </div>
+
+        <div class="button" style="position: fixed; left: 4%; bottom: 20px; width: 8%; height: auto;">
+          <a href="Project1.html">
+            <img style="width:100%;" src="Images/Stamp.png" alt="">
+    <!--                The button! -->
+          </a>
+        </div>
+
+      </body>
+    </html>

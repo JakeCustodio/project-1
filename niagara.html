@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          .column1 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column2 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          table,
+          th,
+          td {
+            border: 0x solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            color: rgb(0, 0, 0);
+            width: 80%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+          }
+        </style>
+        <style>
+          .title {
+            font-size: 385%;
+            color: #eaceac;
+            text-align: center;
+            font-family: times new roman;
+          }
+        </style>
+        <style>
+          .yapping {
+            font-size: 200%;
+            color: #472d1b;
+            text-align: justify;
+            padding-left: 70px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+        </style>
+        <style>
+          .footnote {
+            font-size: 150%;
+            color: #472d1b;
+            font-family: "Garamond";
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        </style>
+        <title class="title">Niagara Falls</title>
+      </head>
+
+      <body>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      <h1 class="title">Niagara Falls</h1>
+      <hr />
+  
+      <div class="topbar">
+        <a href="#">Niagara Falls</a>
+      </div>
+
+      <img style="width:100%; position:center" src="Images/Full Size/Niagara.png" alt="">
+
+      <div class="row">
+
+        <div class="row">
+          <div class="column1" style="padding: 5%">
+            <p class="yapping">
+                Niagara Falls is a group of three waterfalls at the southern end of 
+                Niagara Gorge, spanning the border between the province of Ontario in 
+                Canada and the state of New York in the United States. The largest of 
+                the three is Horseshoe Falls, which straddles the international border 
+                of the two countries. It is also known as the Canadian Falls. The 
+                smaller American Falls and Bridal Veil Falls lie within the United 
+                States. Bridal Veil Falls is separated from Horseshoe Falls by Goat 
+                Island and from American Falls by Luna Island, with both islands 
+                situated in New York.
+            </p>
+          </div>
+          <div class="column2" style="padding: 1px; padding-top: 100px">
+            <!-- Table of Legacy
+    -->
+            <table
+              style="
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 200%;
+              "
+            >
+              <tr>
+                <th>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Images/Card Images/Falls.png" alt="" style="width:500px;height:500px; border-radius: 30px;">
+                      </div>
+                      <div  style="padding: 40px; padding-top: 80px;"class="flip-card-back">
+                        <h1 style="font-size: 40px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          Visual History</h1>
+                        <p style="font-size:20px; font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          The first European eyewitness to the Falls is Samuel de Champlain in 1604, 
+                          but it was not described in detail until 1677 Louis Hennepin. The Falls 
+                          were first decribed scientifically by naturalist Pehr Kalm in the early 
+                          1700s, and it was first painted by Captain Thomas Davies in 1762. The 
+                          first photograph of the Falls was taken by chemist Hugh Lee Pattinson 
+                          around 1840.</p>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+    
+            </table>
+            <!--Footnotes
+    -->
+    
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Learn more about Niagara Falls:
+              <l1><a href="https://www.nps.gov/places/niagara-falls-national-heritage-area.htm">NPS Website</a></l1>
+            </ul>
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Visit the Park Map:
+              <l1
+                ><a
+                  href="https://www.niagarafallsstatepark.com/park-information/niagara-state-park-map/"
+                  >Park Map</a
+                ></l1
+              >
+            </ul>
+          </div>
+        </div>
+
+        <div class="button" style="position: fixed; left: 4%; bottom: 20px; width: 8%; height: auto;">
+          <a href="Project1.html">
+            <img style="width:100%;" src="Images/Stamp.png" alt="">
+    <!--                The button! -->
+          </a>
+        </div>
+
+      </body>
+    </html>

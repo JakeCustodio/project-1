@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          .column1 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          @media screen and (max-width: 800px) {
+    .column2 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          table,
+          th,
+          td {
+            border: 0x solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            color: rgb(0, 0, 0);
+            width: 80%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+          }
+        </style>
+        <style>
+          .title {
+            font-size: 385%;
+            color: #eaceac;
+            text-align: center;
+            font-family: times new roman;
+          }
+        </style>
+        <style>
+          .yapping {
+            font-size: 200%;
+            color: #472d1b;
+            text-align: justify;
+            padding-left: 70px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+        </style>
+        <style>
+          .footnote {
+            font-size: 150%;
+            color: #472d1b;
+            font-family: "Garamond";
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        </style>
+        <title class="title">Grand Tetons</title>
+      </head>
+
+      <body>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      <h1 class="title">Grand Tetons</h1>
+      <hr />
+  
+      <div class="topbar">
+        <a href="#">Grand Tetons</a>
+      </div>
+
+      <img style="width:100%; position:center" src="Images/Full Size/Grand Teton.png" alt="">
+
+      <div class="row">
+
+        <div class="row">
+          <div class="column1" style="padding: 5%">
+            <p class="yapping">
+                Grand Teton National Park is a national park of the United States in 
+                northwestern Wyoming. At approximately 310,000 acres (1,300 km2), the 
+                park includes the major peaks of the 40-mile-long (64 km) Teton Range 
+                as well as most of the northern sections of the valley known as 
+                Jackson Hole. Grand Teton National Park is 10 miles (16 km) south of 
+                Yellowstone National Park, to which it is connected by the John D. 
+                Rockefeller Jr. Memorial Parkway which is managed by the National Park 
+                Service. Along with surrounding national forests, these three 
+                protected areas constitute the almost 22-million-acre 
+                (89,000-square-kilometer) Greater Yellowstone Ecosystem, one of the 
+                world's largest intact mid-latitude temperate ecosystems.
+            </p>
+          </div>
+          <div class="column2" style="padding: 1px; padding-top: 100px">
+            <!-- Table of Legacy
+    -->
+            <table
+              style="
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 200%;
+              "
+            >
+              <tr>
+                <th>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Images/Card Images/Stone.png" alt="" style="width:500px;height:500px; border-radius: 30px;">
+                      </div>
+                      <div  style="padding: 40px; padding-top: 35px;"class="flip-card-back">
+                        <h1 style="font-size: 40px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          A Mystery in Stone</h1>
+                        <p style="font-size:20px; font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                          John Colter was a well-known trapper and mountain man, and may have been the first white explorer
+                          of the greater Yellowstone area. A previous member of Lewis and Clark's expeditions, Colter's exploration
+                          of the area served as the basis of maps of the Teton Range and Yellowstone River, but his exact route
+                          remains up for debate. A crucial piece of evidence– a stone with Colter's name and the date 1808 engraved 
+                          into it, found in what is now Eastern Idaho– would clear up much of the ambiguity, if it could only be 
+                          authenticated.</p>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+    
+            </table>
+            <!--Footnotes
+    -->
+    
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Learn more about the Grand Tetons:
+              <l1><a href="https://www.nps.gov/grte/index.htm">NPS Website</a></l1>
+            </ul>
+            <ul
+              class="footnote"
+              style="
+                border: 2px solid rgb(88, 66, 55);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 20px;
+              "
+            >
+              Visit the Park Map:
+              <l1
+                ><a
+                  href="https://www.nps.gov/media/photo/collection-item.htm?pg=7347320&cid=305fb7af-a71b-469b-941e-a98b439c882f&id=9f35789f-3f7d-447b-9fe7-cb4914e0b6e1&sid=b643be27-8912-4558-97b4-7fa422ee0a86&p=1&sort=relevance"
+                  >Park Map</a
+                ></l1
+              >
+            </ul>
+          </div>
+        </div>
+
+        <div class="button" style="position: fixed; left: 4%; bottom: 20px; width: 8%; height: auto;">
+          <a href="Project1.html">
+            <img style="width:100%;" src="Images/Stamp.png" alt="">
+    <!--                The button! -->
+          </a>
+        </div>
+
+      </body>
+    </html>
