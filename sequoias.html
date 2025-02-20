@@ -10,11 +10,23 @@
             width: 50%;
             padding: 10px;
           }
+          @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
           .column2 {
             float: left;
             width: 50%;
             padding: 10px;
           }
+          @media screen and (max-width: 800px) {
+    .column2 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
           .row:after {
             content: "";
             display: table;
@@ -52,7 +64,7 @@
           .footnote {
             font-size: 150%;
             color: #472d1b;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: "Garamond";
             text-align: center;
             padding-left: 15px;
             padding-right: 15px;
@@ -75,19 +87,19 @@
       <div class="row">
 
         <div class="row">
-          <div class="column1" style="padding: 50px">
+          <div class="column1" style="padding: 5%">
             <p class="yapping">
-              Death Valley National Park is a national park of the United States that 
-              straddles the California–Nevada border, east of the Sierra Nevada. The 
-              park boundaries include Death Valley, the northern section of Panamint 
-              Valley, the southern section of Eureka Valley and most of Saline Valley.
-            </p>
-            <p class="yapping">
-              Death Valley is the largest national park in the contiguous United States, 
-              as well as the hottest, driest and lowest of all the national parks in 
-              the United States. It contains Badwater Basin, the second-lowest point 
-              in the Western Hemisphere and lowest in North America at 282 feet (86 m) 
-              below sea level. More than 93% of the park is a designated wilderness area.
+                Sequoia National Park is a national park of the United States in the 
+                southern Sierra Nevada east of Visalia, California. The park was 
+                established on September 25, 1890, and today protects 404,064 acres 
+                (631 sq mi; 163,519 ha; 1,635 km2) of forested mountainous terrain. 
+                Encompassing a vertical relief of nearly 13,000 feet (4,000 m), the park 
+                contains the highest point in the contiguous United States, Mount 
+                Whitney, at 14,505 feet (4,421 m) above sea level. The park is south 
+                of, and contiguous with, Kings Canyon National Park; both parks are 
+                administered by the National Park Service together as Sequoia and Kings 
+                Canyon National Parks. UNESCO designated the areas as Sequoia-Kings 
+                Canyon Biosphere Reserve in 1976.
             </p>
           </div>
           <div class="column2" style="padding: 1px; padding-top: 100px">
@@ -106,16 +118,18 @@
                   <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="Images/Card Images/Temperature.png" alt="" style="width:500px;height:500px; border-radius: 30px;">
+                        <img src="Images/Card Images/Sherman.png" alt="" style="width:500px;height:500px; border-radius: 30px;">
                       </div>
-                      <div  style="padding: 40px; padding-top: 70px;"class="flip-card-back">
+                      <div  style="padding: 40px; padding-top: 60px;"class="flip-card-back">
                         <h1 style="font-size: 40px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-                          Hottest Place on Earth</h1>
+                          World's Largest Trees</h1>
                         <p style="font-size:20px; font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-                          On July 10th, 1913, the world record for highest air temperature was set at 
-                          Furnace Creek in Death Valley, at 135 degrees Fahrenheit. Though this recording 
-                          has come under some recent scrutiny, even if it were discounted the record 
-                          would still be a tie between Death Valley and Kuwait at 129.2 degrees.</p>
+                          The General Sherman is the largest known living single-stem tree on Earth. At 275 
+                          feet high and 36 feet in diameter, it is taller than the Statue of Liberty from 
+                          the base of the copper statue to the tip of the torch (151 feet). Sequoia National
+                          Park contains 5 of the ten tallest trees in the world, many of which are also named
+                          after generals of the American Civil War.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -129,19 +143,19 @@
             <ul
               class="footnote"
               style="
-                border: 2px solid rgb(0, 0, 0);
+                border: 2px solid rgb(88, 66, 55);
                 padding-top: 15px;
                 padding-bottom: 15px;
                 border-radius: 20px;
               "
             >
-              Learn more about the Mojave Desert:
-              <l1><a href="https://www.journals.uchicago.edu/doi/10.1086/368608">NPS Website</a></l1>
+              Learn more about the Sequoias:
+              <l1><a href="https://www.nps.gov/seki/index.htm">NPS Website</a></l1>
             </ul>
             <ul
               class="footnote"
               style="
-                border: 2px solid rgb(0, 0, 0);
+                border: 2px solid rgb(88, 66, 55);
                 padding-top: 15px;
                 padding-bottom: 15px;
                 border-radius: 20px;
@@ -150,7 +164,7 @@
               Visit the Park Map:
               <l1
                 ><a
-                  href="https://jake-harmonic-thing.glitch.me/pA-worldmap-antique.html"
+                  href="https://www.nps.gov/seki/planyourvisit/maps.htm"
                   >Park Map</a
                 ></l1
               >
@@ -158,7 +172,12 @@
           </div>
         </div>
 
-
+        <div class="button" style="position: fixed; left: 4%; bottom: 20px; width: 8%; height: auto;">
+          <a href="Project1.html">
+            <img style="width:100%;" src="Images/Stamp.png" alt="">
+    <!--                The button! -->
+          </a>
+        </div>
 
       </body>
     </html>
