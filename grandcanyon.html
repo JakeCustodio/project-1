@@ -10,11 +10,23 @@
             width: 50%;
             padding: 10px;
           }
+          @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
           .column2 {
             float: left;
             width: 50%;
             padding: 10px;
           }
+          @media screen and (max-width: 800px) {
+    .column2 {
+      flex: 100%;
+      width: 100%;
+    }
+  }
           .row:after {
             content: "";
             display: table;
@@ -52,7 +64,7 @@
           .footnote {
             font-size: 150%;
             color: #472d1b;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: "Garamond";
             text-align: center;
             padding-left: 15px;
             padding-right: 15px;
@@ -75,7 +87,7 @@
       <div class="row">
 
         <div class="row">
-          <div class="column1" style="padding: 50px">
+          <div class="column1" style="padding: 5%">
             <p class="yapping">
               Grand Canyon National Park is a national park of the United States located in 
               northwestern Arizona, the 15th site to have been named as a national park. The 
@@ -126,19 +138,19 @@
             <ul
               class="footnote"
               style="
-                border: 2px solid rgb(0, 0, 0);
+                border: 2px solid rgb(88, 66, 55);
                 padding-top: 15px;
                 padding-bottom: 15px;
                 border-radius: 20px;
               "
             >
               Learn more about the Grand Canyon:
-              <l1><a href="https://www.journals.uchicago.edu/doi/10.1086/368608">NPS Website</a></l1>
+              <l1><a href="https://www.nps.gov/grca/planyourvisit/maps.htm">NPS Website</a></l1>
             </ul>
             <ul
               class="footnote"
               style="
-                border: 2px solid rgb(0, 0, 0);
+                border: 2px solid rgb(88, 66, 55);
                 padding-top: 15px;
                 padding-bottom: 15px;
                 border-radius: 20px;
@@ -147,7 +159,7 @@
               Visit the Park Map:
               <l1
                 ><a
-                  href="https://jake-harmonic-thing.glitch.me/pA-worldmap-antique.html"
+                  href="https://rclark.github.io/grand-canyon-geology/#10.73/36.092/-112.0412"
                   >Park Map</a
                 ></l1
               >
@@ -155,7 +167,12 @@
           </div>
         </div>
 
-
+        <div class="button" style="position: fixed; left: 4%; bottom: 20px; width: 8%; height: auto;">
+          <a href="Project1.html">
+            <img style="width:100%;" src="Images/Stamp.png" alt="">
+    <!--                The button! -->
+          </a>
+        </div>
 
       </body>
     </html>
